@@ -1,0 +1,85 @@
+body{
+    background: linear-gradient(
+    to right,
+    #494e5f 0%,
+    #494e5f 53%,
+    #fefefa 50%,
+    #fefefa 100%
+    );
+}
+
+div {width: 100%;}
+
+
+.v1 {max-width: 45%; float: left; display: inline;}
+
+.v2 {float: right; text-align: left; width: 600px; display: inline; width: 500px; margin-right: 14vh;
+  
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    color: #ffe6d4;
+    width: 400px;
+    height: 10%;
+
+   
+    
+  }
+
+  
+
+  h2 {width: 300px; margin-top: 300px;
+    width: 300px;
+    margin-top: 30px;
+    color: #ffe6d4;
+    font-family: "Montserrat", sans-serif;
+ 
+}
+ .a1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
+   color: black
+  
+
+
+
+}
+  
+ .o1 {
+     background-color: #ffe6d4;
+     margin: 0;
+    
+  } 
+
+p{
+    
+color:black;
+  }
+
+  h3{
+    width:auto ;
+    font-family: "Montserrat", sans-serif;
+    color: #ffe6d4;
+  }
+  .f1{
+    color: #ffe6d4;
+  }
+
+  
+
+ 
+  
+  hr.bor1 {
+    
+    background: rgb(255, 231, 212);
+    height: 5px;
+    width:490px;
+    float: left;
+    
+    
+  }
+
+  * {box-sizing: border-box;}
+
+ 
