@@ -1,4 +1,4 @@
-body{
+*{
     font-family: cursive;
     margin: 0;
     padding: 0;
@@ -11,46 +11,42 @@ strong{
   display: flex;
   flex-direction: column;
 }
+ul{
+  list-style: none;
+}
 .suiver{
   text-decoration: none;
   color: #eeeeee;
 }
-
-
 .container{
   display: flex;
   justify-content: center;
    flex-wrap: wrap;
     gap: 2vh;
 }
-
 h1{
     font-family: "Montserrat", sans-serif;
     color: #ffe6d4;
     height: 10%;
 
   }
-
   h2 {
     margin-top: 30px;
     color: #ffe6d4;
-    font-family: "Montserrat", sans-serif;
+  
     
 }
  .couleur_text_right{
-  font-family: "Montserrat", sans-serif;
   font-size: 100%;
    color: black;
    
 }
-  
 .couleur_boite_right_1{
      background-color: #ffe6d4;
      width: 50vh;
      padding: 2vh;
      margin-left: -2vh;
   } 
-
   h3{
     width:auto ;
     font-family: "Montserrat", sans-serif;
@@ -70,19 +66,25 @@ h1{
   .left, .right {
     transition: transform 0.3s ease-in-out;
 }
-
 .left:hover, .right:hover {
     transform: scale(1.02);
 }
-
-
   hr.bor1 {
     
     background: rgb(255, 231, 212);
     height: 5px;
     width:49vh;
   }
-
+  .imprimer{
+    background-color: #c00000;
+    padding: 5px 25px;
+    color: #FFF;
+    font-family: cursive;
+    margin-left: 25vh;
+    border: none;
+    border-radius: 5px; /* Ajoute des coins arrondis */
+    cursor: pointer;
+}
   @media(max-width:500px){
     .container{
       flex-direction: column;
@@ -105,6 +107,17 @@ p{
   margin-top: -2vh;
 }
 hr.bor1{
-  width: 40vh;
+  width: 37vh;
+}
+.imprimer{
+  margin: inherit;
+  margin-left: 10vh;
+}
+}
+
+@media print {
+  body, .container, .left, .right, .couleur_boite_right_1 {
+    background-color: white !important;
+    color: black !important;
 }
 }

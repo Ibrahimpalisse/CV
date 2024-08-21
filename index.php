@@ -5,6 +5,9 @@
  ?>
 <body>
      <?php
+     include('includ/_Header.php');
+     ?>
+     <?php
      include('includ/_Main.php');
      ?>
 </body>
