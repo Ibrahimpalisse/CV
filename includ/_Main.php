@@ -11,7 +11,7 @@
           Profil: 
        </h2>
       <p>
-        <span> Développeur Web</span> motivé et passionné<br/>
+        <strong>Développeur Web</strong> motivé et passionné<br/>
          par la création de sites internet performants<br/>
          et esthétiques
       </p>
@@ -20,24 +20,24 @@
        <h3>
          Compétences 
       </h3>
-       <ul>
+       <ul class="competences">
            <li>
-               <label for="file">html:
+               <label for="file">html<span>:</span>
                   <progress id="file" max="100" value="80">70%</progress>
                </label>
           </li>
            <li>
-               <label for="file">css:
+               <label for="file">css<span>:</span>
                   <progress id="file" max="100" value="50">70%</progress>
                </label>
           </li>
            <li>
-               <label for="file">php:
+               <label for="file">php<span>:</span>
                   <progress id="file" max="100" value="30">30%</progress>
                </label>
           </li>
            <li>
-              <label for="file">sql:
+              <label for="file">sql<span>:</span>
                   <progress id="file" max="100" value="30">30%</progress>
                </label>
            </li>

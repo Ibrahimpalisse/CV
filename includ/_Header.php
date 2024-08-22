@@ -1,6 +1,4 @@
-<button class="imprimer" id="print-button" onclick="window.print()">
-    Imprimer cette page
+<button class="imprimer" id="print-button" onclick="print()">
+    Imprimer 
 </button>
-<button class="retour">
- <a href="../../index.php">revenir a la page principale</a>   
-</button>
+

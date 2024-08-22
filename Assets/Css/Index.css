@@ -4,9 +4,6 @@
     padding: 0;
 }
 
-strong{
-    font-size: xx-large;
-}
 .colone{
   display: flex;
   flex-direction: column;
@@ -25,19 +22,20 @@ ul{
     gap: 2vh;
 }
 h1{
+     font-size: xx-large;
     font-family: "Montserrat", sans-serif;
     color: #ffe6d4;
     height: 10%;
 
   }
-  h2 {
+   h2 {
     margin-top: 30px;
     color: #ffe6d4;
   
     
 }
  .couleur_text_right{
-  font-size: 100%;
+  font-size: 126%;
    color: black;
    
 }
@@ -76,7 +74,7 @@ h1{
     width:49vh;
   }
   .imprimer{
-    background-color: #c00000;
+    background-color: #797878;
     padding: 5px 25px;
     color: #FFF;
     font-family: cursive;
@@ -85,16 +83,7 @@ h1{
     border-radius: 5px; /* Ajoute des coins arrondis */
     cursor: pointer;
 }
-.retour{
-  background-color: #00c02a;
-  padding: 5px 25px;
-  color: #FFF;
-  font-family: cursive;
-  margin-left: 8vh;
-  border: none;
-  border-radius: 5px; /* Ajoute des coins arrondis */
-  cursor: pointer;
-}
+
   @media(max-width:500px){
     .container{
       flex-direction: column;
@@ -126,8 +115,20 @@ hr.bor1{
 }
 
 @media print {
-  body, .container, .left, .right, .couleur_boite_right_1 {
+  * {
     background-color: white !important;
     color: black !important;
+    margin: 0 !important;
 }
+progress{
+  background-color: #000000;
+}
+br,span{
+  display: none;
+}
+.competences{
+  display: flex;
+  justify-content: space-around;
+}
+
 }
